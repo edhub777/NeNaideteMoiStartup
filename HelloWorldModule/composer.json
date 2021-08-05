@@ -1,0 +1,25 @@
+{
+    "name": "Amasty_HelloWorldModule",
+    "description": "code revolution",
+    "keywords": ["log", "logging", "psr-3"],
+    "homepage": "https://github.com/edhub777/NeNaideteMoiStartup",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ed",
+            "email": "https://github.com/edhub777/NeNaideteMoiStartup",
+            "homepage": "https://github.com/edhub777/NeNaideteMoiStartup"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "files": {
+            "registragion.php"
+        },
+        "psr-4": {
+            "Amasty\\HelloWorldModule\\": ""
+        }
+    },
+}
